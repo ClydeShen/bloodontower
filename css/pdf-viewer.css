@@ -1,7 +1,5 @@
-body {
-  background-color: #535759;
-}
-#pdf canvas {
-  margin: 20px auto;
-  display: block;
+#pdf {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
