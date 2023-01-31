@@ -648,7 +648,7 @@
               'a',
               {
                 attrs: {
-                  href: 'https://github.com/ClydeShen/bloodontower/docs',
+                  href: 'https://clydeshen.github.io/bloodontower/docs',
                   target: '_blank'
                 }
               },
@@ -3408,7 +3408,7 @@
               'a',
               {
                 attrs: {
-                  href: 'https://github.com/ClydeShen/bloodontower/docs',
+                  href: 'https://clydeshen.github.io/bloodontower/docs',
                   target: '_blank'
                 }
               },
