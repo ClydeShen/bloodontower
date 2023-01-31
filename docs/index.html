@@ -76,32 +76,44 @@
       sizes="16x16"
       href="/bloodontower/static/favicon-16x16.png"
     />
-    <link href="/bloodontower/css/app.8003cba2.css" rel="stylesheet" />
-    <link href="/bloodontower/css/pdf-viewer.css" rel="preload" as="style" />
+    <link href="../css/app.8003cba2.css" rel="stylesheet" />
+    <link href="../css/pdf-viewer.css" rel="preload" as="style" />
+    <link href="../css/rules.css" rel="preload" as="style" />
+    <style>
+      .editions {
+        display: flex;
+        gap: 24px;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+      .edition {
+        border: rgba(255, 255, 255, 0.5) 2px solid;
+        background: rgba(0, 0, 0, 0.5);
+        border-radius: 10px;
+        width: 200px;
+        padding: 16px 8px;
+      }
+      .edition > h3 {
+        margin: 8px 0;
+      }
+    </style>
     <title>血染钟楼游戏说明</title>
   </head>
   <body>
     <div id="app">
-      <h1>血染钟楼游戏说明</h1>
-      <div class="intro">
-        <ul>
-          <li>
-            <h2><a href="rules/index.html">总规则说明</a></h2>
-          </li>
-        </ul>
-        <ul>
-          <li>
-            <h2>灾祸滋生</h2>
-            <ul>
-              <li>
-                <h3><a href="troublebrewing/sheet.html">身份表</a></h3>
-              </li>
-              <li>
-                <h3><a href="troublebrewing/details.html">身份详解</a></h3>
-              </li>
-            </ul>
-          </li>
-        </ul>
+      <div class="intro" data-v-630214a9="">
+        <h2><b>血染钟楼游戏说明</b></h2>
+        <hr />
+        <h3><a href="rules/index.html">总规则说明</a></h3>
+        <br />
+        <div class="editions">
+          <div class="edition">
+            <img src="../img/tb.438499cd.png" width="140px" />
+            <h3>灾祸滋生</h3>
+            <h5><a href="troublebrewing/sheet.html">身份表</a></h5>
+            <h5><a href="troublebrewing/details.html">身份详解</a></h5>
+          </div>
+        </div>
       </div>
     </div>
   </body>

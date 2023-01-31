@@ -1,3 +1,7 @@
+.rules ul {
+  list-style: circle;
+}
+
 #pdf-container {
   display: flex;
   justify-content: center;
