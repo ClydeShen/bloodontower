@@ -5,7 +5,7 @@ let pdfDoc = null
 let pageRendering = false
 let pageNumPending = null
 const scale = 1.5
-const pdfEle = document.getElementById('pdf')
+const pdfEle = document.getElementById('pdf-container')
 const pdfURL = pdfEle.dataset.url
 
 function renderPage(num, canvas) {

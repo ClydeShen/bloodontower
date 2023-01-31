@@ -1,5 +1,10 @@
-#pdf {
+#pdf-container {
   display: flex;
   justify-content: center;
   flex-direction: column;
+}
+
+#pdf-container canvas {
+  margin: 20px auto;
+  display: block;
 }
