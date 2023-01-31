@@ -647,9 +647,12 @@
             i(
               'a',
               {
-                attrs: { href: 'https://beian.miit.gov.cn', target: '_blank' }
+                attrs: {
+                  href: 'https://github.com/ClydeShen/bloodontower/docs',
+                  target: '_blank'
+                }
               },
-              [e._v('蜀ICP备2022006052号')]
+              [e._v('游戏规则及身份说明')]
             )
           ])
         }
@@ -3399,6 +3402,17 @@
             ),
             e._v(
               '。 本项目是非官方项目。「血染钟楼」是由Steven Medway设计，The Pandemonium Institute公司出品的桌游。 '
+            ),
+            e._v(' 中文规则请查看 '),
+            i(
+              'a',
+              {
+                attrs: {
+                  href: 'https://github.com/ClydeShen/bloodontower/docs',
+                  target: '_blank'
+                }
+              },
+              [e._v('游戏规则及身份说明')]
             )
           ])
         }

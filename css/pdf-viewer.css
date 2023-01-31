@@ -1,0 +1,7 @@
+body {
+  background-color: #535759;
+}
+#pdf canvas {
+  margin: 20px auto;
+  display: block;
+}
